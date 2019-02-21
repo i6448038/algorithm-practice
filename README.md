@@ -17,4 +17,7 @@ ps:一个只能被1和自身整除的数称之为质数
 [答案](arithmetic/quick_sort.go)
 
 ### 插入排序
-[答案](arithmetic/intert_sort.go)
+[答案](arithmetic/insert_sort.go)
+
+### 归并排序
+[答案](arithmetic/merge_sort.go)
