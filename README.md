@@ -39,6 +39,9 @@ ps:一个只能被1和自身整除的数称之为质数
 
 [答案](arithmetic/reverse_node.go)
 
+### 杨辉三角根据某行某列求值
+[答案](arithmetic/pascal_triangle.go)
+
 
 
 
