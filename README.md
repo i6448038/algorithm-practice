@@ -19,6 +19,9 @@
 ### 冒泡排序
 [答案](arithmetic/bubble_sort.go)
 
+### 单链表反转
+[答案](arithmetic/reverse_node.go)
+
 ## 查找算法
 
 ### 用递归和非递归实现二分法查找
@@ -31,6 +34,10 @@
 ps:一个只能被1和自身整除的数称之为质数
 
 [答案](arithmetic/prime.go)
+
+### 单链表反转
+
+[答案](arithmetic/reverse_node.go)
 
 
 
