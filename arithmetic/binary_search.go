@@ -14,14 +14,17 @@ func main() {
 
 //非递归
 func BinarySearch1(sortedArray []int, searchKey int) (int, bool) {
-	flag := len(sortedArray)/2 -1
-	for flag >= 0 && flag <= len(sortedArray) - 1{
-		if searchKey == sortedArray[flag] {
-			return flag, true
-		} else if searchKey < sortedArray[flag] {
-			flag = (flag - 1)/2
-		} else if searchKey > sortedArray[flag] {
-			flag = (len(sortedArray)-1 - (flag + 1)) /2 + flag + 1
+	right := len(sortedArray) - 1
+	left := 0
+	var mid int
+	for left <= right{
+		mid = (right - left) / 2 + left
+		if searchKey == sortedArray[mid] {
+			return mid, true
+		} else if searchKey < sortedArray[mid] {
+			right = mid - 1
+		} else if searchKey > sortedArray[mid] {
+			left = mid + 1
 		}
 	}
 	return -1 , false
