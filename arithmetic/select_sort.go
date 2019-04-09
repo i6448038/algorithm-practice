@@ -14,10 +14,10 @@ func SelectSort(array []int) []int{
 		min := i
 		for j := i; j < l; j++ {
 			if array[j] < array[min] {
-				array[j], array[min] = array[min], array[j]
+				min = j
 			}
 		}
-
+		array[i], array[min] = array[min], array[i]
 	}
 	return array
 }
