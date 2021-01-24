@@ -60,7 +60,7 @@ ps:一个只能被1和自身整除的数称之为质数
 
 ### 将一个十进制数转化为二进制数并输出字符串
 
-[答案](arithmetic)
+[答案](arithmetic/numeration.go)
 
 
 

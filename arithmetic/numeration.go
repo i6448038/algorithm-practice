@@ -4,7 +4,7 @@ import (
 	"strings"
 )
 
-func trans2Two(num int) string{
+func trans2Binary(num int) string{
 	ret := make([]string, 0)
 	for num > 0 {
 		if num % 2 == 1{
