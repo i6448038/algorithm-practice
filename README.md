@@ -5,9 +5,9 @@
 ## 排序算法
 
 ### 快速排序
-#### 原数组地址改变
+#### 1.原数组地址改变
 [答案](arithmetic/quick_sort.go)
-#### 原地原数组地址不改变
+#### 2.原地原数组地址不改变
 [答案](arithmetic/quick_sort1.go)
 ### 插入排序
 [答案](arithmetic/insert_sort.go)
