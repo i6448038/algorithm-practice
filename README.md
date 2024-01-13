@@ -61,7 +61,6 @@ ps:一个只能被1和自身整除的数称之为质数
 
 [答案](arithmetic/prime.go)
 
-
 ### 6.2 利用redis写一个限速函数，规定1分钟内限访问次数1000次，若超出限制，则禁止访问10秒
 
 [答案](arithmetic/limit_request.go)
@@ -77,7 +76,6 @@ ps:一个只能被1和自身整除的数称之为质数
 ### 6.5 两个协程交替打印
 
 [答案](arithmetic/goroutine_exchange.go)
-
 
 
 

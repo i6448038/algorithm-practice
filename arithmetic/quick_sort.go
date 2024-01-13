@@ -25,5 +25,4 @@ func QuickSort(messArray []int) []int {
 	result := append(QuickSort(leftElems), flagElem)
 	result = append(result, QuickSort(rightElems)...)
 	return result
-
 }
