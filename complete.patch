@@ -1,0 +1,29 @@
+Index: README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- README.md	(revision 6893d20eab2694259528f0a9dc0829977a58bdb7)
++++ README.md	(date 1611472594000)
+@@ -60,7 +60,7 @@
+ 
+ ### 将一个十进制数转化为二进制数并输出字符串
+ 
+-[答案](arithmetic)
++[答案](arithmetic/numeration.go)
+ 
+ 
+ 
+Index: arithmetic/numeration1.go
+===================================================================
+--- arithmetic/numeration1.go	(revision 6893d20eab2694259528f0a9dc0829977a58bdb7)
++++ arithmetic/numeration.go	(date 1611472594000)
+@@ -4,7 +4,7 @@
+ 	"strings"
+ )
+ 
+-func trans2Two(num int) string{
++func trans2Binary(num int) string{
+ 	ret := make([]string, 0)
+ 	for num > 0 {
+ 		if num % 2 == 1{
